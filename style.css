@@ -1,0 +1,92 @@
+#grid{ /*sets up a 12 cloumn css grid */
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  justify-items: end;
+
+}
+.threeXone{
+  grid-column-end: span 3;
+}
+.eightX1{
+  grid-column-end:span 8;
+}
+.sevenXone{
+  grid-column-end: span 7;
+}
+.oneXone{
+  grid-column-end: span 1;
+}
+.fourXone{
+  grid-column-end: span 5;
+}
+/*
+#firebox{
+  position: relative;
+  animation: fire_flicker 1s ease-in infinite;
+  visibility: hidden;
+}
+@keyframes fire_flicker {
+    0% {transform: rotate(-1deg);}
+    20% {transform: rotate(2deg);}
+    40% {transform: rotate(-1deg);}
+    60% {transform: rotate(1deg);}
+    80% {transform: rotate(-1deg);}
+    100% {transform: rotate(1deg);}
+}
+.red{
+  width: 110px;
+  height: 110px;
+  background-color: red;
+  bottom:0;
+  position: fixed;
+  border-radius: 50% 0% 50% 50%;
+  box-shadow: 0px 0px 30px 20px orangered;
+  transform: rotate(-45deg);
+}
+.orange{
+  width: 90px;
+  height: 90px;
+  background-color: orange;
+  bottom:0;
+  left: 5px;
+  position: fixed;
+    border-radius: 50% 0% 50% 50%;
+  box-shadow: 3px 0px 20px 15px orange;
+  transform: rotate(-45deg);
+
+
+}
+.gold{
+  width: 70px;
+  height: 70px;
+  background-color: gold;
+  bottom:0;
+  left: 15px;
+  position: fixed;
+    border-radius: 50% 0% 50% 50%;
+    box-shadow: 0px 0px 20px 15px orange;
+    transform: rotate(-45deg);
+}
+
+.white{
+  width: 50px;
+  height: 50px;
+  background-color:  #ffff4d;
+  bottom:0;
+  left: 25px;
+  position: fixed;
+  border-radius: 50% 0% 50% 50%;
+box-shadow: 3px 0px 20px 15px orange;
+transform: rotate(-45deg);
+
+}
+*/
+body{
+  background-color: #006699;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
